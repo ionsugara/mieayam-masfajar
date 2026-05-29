@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mie Ayam Kartotiyasan Mas Fajar – Surakarta</title>
+  <meta name="description" content="Mie Ayam Kartotiyasan Mas Fajar, cita rasa autentik Surakarta sejak 2009. Temukan menu lezat kami di Jalan Manduro, Surakarta." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,900;1,700&family=Lora:wght@400;500&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav id="navbar">
+    <div class="nav-inner">
+      <div class="nav-logo">
+        <span class="logo-icon">🍜</span>
+        <div>
+          <span class="logo-main">Mas Fajar</span>
+          <span class="logo-sub">Mie Ayam Kartotiyasan</span>
+        </div>
+      </div>
+      <ul class="nav-links">
+        <li><a href="#beranda">Beranda</a></li>
+        <li><a href="#tentang">Tentang</a></li>
+        <li><a href="#menu">Menu</a></li>
+        <li><a href="#galeri">Galeri</a></li>
+        <li><a href="#testimoni">Testimoni</a></li>
+        <li><a href="#lokasi">Lokasi</a></li>
+        <li><a href="#pesan" class="nav-cta">Pesan Sekarang</a></li>
+      </ul>
+      <button class="hamburger" id="hamburger" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- MOBILE MENU -->
+  <div class="mobile-menu" id="mobileMenu">
+    <ul>
+      <li><a href="#beranda" onclick="closeMobile()">Beranda</a></li>
+      <li><a href="#tentang" onclick="closeMobile()">Tentang</a></li>
+      <li><a href="#menu" onclick="closeMobile()">Menu</a></li>
+      <li><a href="#galeri" onclick="closeMobile()">Galeri</a></li>
+      <li><a href="#testimoni" onclick="closeMobile()">Testimoni</a></li>
+      <li><a href="#lokasi" onclick="closeMobile()">Lokasi</a></li>
+      <li><a href="#pesan" onclick="closeMobile()">Pesan Sekarang</a></li>
+    </ul>
+  </div>
+
+  <!-- HERO -->
+  <section id="beranda" class="hero">
+    <div class="hero-bg">
+      <div class="hero-blob b1"></div>
+      <div class="hero-blob b2"></div>
+      <div class="hero-blob b3"></div>
+      <div class="noodle-pattern"></div>
+    </div>
+    <div class="hero-content">
+      <div class="hero-badge">✦ Sejak 2009 ✦</div>
+      <h1 class="hero-title">
+        <span class="ht-line">Mie Ayam</span>
+        <span class="ht-line accent-text">Kartotiyasan</span>
+        <span class="ht-line">Mas Fajar</span>
+      </h1>
+      <p class="hero-desc">
+        Cita rasa autentik yang menghangatkan hati.<br/>
+        Hadir di Jalan Manduro, Surakarta — untuk semua kalangan.
+      </p>
+      <div class="hero-actions">
+        <a href="#menu" class="btn-primary">Lihat Menu</a>
+        <a href="#pesan" class="btn-secondary">Pesan Sekarang</a>
+      </div>
+      <div class="hero-stats">
+        <div class="stat"><span class="stat-num">15+</span><span class="stat-label">Tahun Berdiri</span></div>
+        <div class="stat-div"></div>
+        <div class="stat"><span class="stat-num">100+</span><span class="stat-label">Pelanggan/Hari</span></div>
+        <div class="stat-div"></div>
+        <div class="stat"><span class="stat-num">❤️</span><span class="stat-label">Dibuat dengan Cinta</span></div>
+      </div>
+    </div>
+    <div class="hero-visual">
+      <div class="bowl-wrap">
+        <div class="bowl-glow"></div>
+        <div class="bowl-emoji">🍜</div>
+        <div class="floating-tag t1">Segar</div>
+        <div class="floating-tag t2">Halal</div>
+        <div class="floating-tag t3">Terjangkau</div>
+      </div>
+    </div>
+    <a href="#tentang" class="scroll-down">
+      <div class="scroll-dot"></div>
+    </a>
+  </section>
+
+  <!-- TENTANG -->
+  <section id="tentang" class="tentang">
+    <div class="container">
+      <div class="tentang-grid">
+        <div class="tentang-visual">
+          <div class="tentang-card main-card">
+            <div class="tc-emoji">🏪</div>
+            <h3>Warung Kami</h3>
+            <p>Berdiri sejak 2009 di Jalan Manduro, Surakarta, kami hadir dengan resep khas yang tidak berubah.</p>
+          </div>
+          <div class="tentang-card side-card sc1">
+            <div class="tc-emoji">👴</div>
+            <p>Memberdayakan warga lansia sekitar</p>
+          </div>
+          <div class="tentang-card side-card sc2">
+            <div class="tc-emoji">🏆</div>
+            <p>Dikenal & dipercaya warga Surakarta</p>
+          </div>
+        </div>
+        <div class="tentang-text">
+          <div class="section-tag">Tentang Kami</div>
+          <h2 class="section-title">Lebih dari Sekedar<br/><em>Semangkuk Mie</em></h2>
+          <p>Mie Ayam Kartotiyasan Mas Fajar bukan sekadar warung makan biasa. Sejak didirikan pada tahun 2009, kami telah menjadi bagian dari kehidupan sehari-hari masyarakat Surakarta dengan sajian mie ayam yang autentik, lezat, dan selalu konsisten.</p>
+          <p>Yang membuat kami berbeda adalah komitmen sosial kami. Kami dengan bangga memberdayakan warga lanjut usia di sekitar lokasi usaha — memberikan mereka kesempatan untuk tetap produktif dan berkontribusi. Bagi kami, bisnis yang baik adalah bisnis yang memberikan manfaat bagi banyak orang.</p>
+          <div class="tentang-highlights">
+            <div class="th-item">
+              <span class="th-icon">🌶️</span>
+              <div><strong>Resep Turun-Temurun</strong><p>Bumbu rahasia yang sudah teruji lebih dari 15 tahun</p></div>
+            </div>
+            <div class="th-item">
+              <span class="th-icon">🤝</span>
+              <div><strong>Nilai Sosial</strong><p>Memberdayakan lansia lokal sebagai bagian dari tim</p></div>
+            </div>
+            <div class="th-item">
+              <span class="th-icon">💰</span>
+              <div><strong>Harga Bersahabat</strong><p>Kualitas premium dengan harga yang terjangkau untuk semua</p></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- MENU -->
+  <section id="menu" class="menu-section">
+    <div class="menu-bg-accent"></div>
+    <div class="container">
+      <div class="section-header">
+        <div class="section-tag">Menu Kami</div>
+        <h2 class="section-title">Pilihan Lezat<br/><em>Untuk Anda</em></h2>
+        <p class="section-desc">Setiap mangkuk dibuat dengan bahan segar pilihan dan bumbu rahasia khas Kartotiyasan</p>
+      </div>
+
+      <div class="menu-tabs">
+        <button class="tab-btn active" data-cat="semua">Semua</button>
+        <button class="tab-btn" data-cat="andalan">Andalan</button>
+        <button class="tab-btn" data-cat="pelengkap">Pelengkap</button>
+        <button class="tab-btn" data-cat="minuman">Minuman</button>
+      </div>
+
+      <div class="menu-grid" id="menuGrid">
+        <!-- menu items injected by JS -->
+      </div>
+    </div>
+  </section>
+
+  <!-- GALERI -->
+  <section id="galeri" class="galeri">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-tag">Galeri</div>
+        <h2 class="section-title">Sekilas Pandang<br/><em>Warung Kami</em></h2>
+      </div>
+      <div class="galeri-grid">
+        <div class="gal-item gi-big" data-label="Semangkuk Mie Ayam Special">
+          <div class="gal-inner"><span>🍜</span></div>
+          <div class="gal-overlay"><p>Mie Ayam Special</p></div>
+        </div>
+        <div class="gal-item" data-label="Suasana Warung">
+          <div class="gal-inner"><span>🏪</span></div>
+          <div class="gal-overlay"><p>Suasana Warung</p></div>
+        </div>
+        <div class="gal-item" data-label="Proses Memasak">
+          <div class="gal-inner"><span>👨‍🍳</span></div>
+          <div class="gal-overlay"><p>Proses Memasak</p></div>
+        </div>
+        <div class="gal-item" data-label="Bahan Segar Pilihan">
+          <div class="gal-inner"><span>🥬</span></div>
+          <div class="gal-overlay"><p>Bahan Segar Pilihan</p></div>
+        </div>
+        <div class="gal-item gi-wide" data-label="Tim Kami yang Berdedikasi">
+          <div class="gal-inner"><span>👥</span></div>
+          <div class="gal-overlay"><p>Tim Kami yang Berdedikasi</p></div>
+        </div>
+        <div class="gal-item" data-label="Mie Ayam Bakso">
+          <div class="gal-inner"><span>🥣</span></div>
+          <div class="gal-overlay"><p>Mie Ayam Bakso</p></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TESTIMONI -->
+  <section id="testimoni" class="testimoni">
+    <div class="testi-bg"></div>
+    <div class="container">
+      <div class="section-header">
+        <div class="section-tag light-tag">Testimoni</div>
+        <h2 class="section-title light-title">Apa Kata<br/><em>Pelanggan Kami</em></h2>
+      </div>
+      <div class="testi-grid">
+        <div class="testi-card">
+          <div class="testi-stars">★★★★★</div>
+          <p class="testi-text">"Mie ayam terenak yang pernah saya coba di Solo! Kuahnya gurih, ayamnya banyak, dan harganya sangat worth it. Sudah langganan sejak 2015."</p>
+          <div class="testi-author">
+            <div class="testi-avatar">B</div>
+            <div><strong>Budi S.</strong><span>Pelanggan Setia</span></div>
+          </div>
+        </div>
+        <div class="testi-card tc-featured">
+          <div class="testi-stars">★★★★★</div>
+          <p class="testi-text">"Suka banget sama mie ayam di sini. Porsinya pas, rasanya konsisten dari dulu sampai sekarang. Tempatnya juga nyaman dan bersih. Rekomen banget!"</p>
+          <div class="testi-author">
+            <div class="testi-avatar">S</div>
+            <div><strong>Siti R.</strong><span>Pembeli Rutin</span></div>
+          </div>
+        </div>
+        <div class="testi-card">
+          <div class="testi-stars">★★★★★</div>
+          <p class="testi-text">"Harganya murah tapi rasanya bintang lima! Setiap pagi saya selalu mampir sebelum kerja. Pak Fajar ramah banget, pelayanannya cepat juga."</p>
+          <div class="testi-author">
+            <div class="testi-avatar">A</div>
+            <div><strong>Agus W.</strong><span>Pelanggan Harian</span></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- FORM TESTIMONI -->
+      <div class="testi-form-wrap">
+        <h3>Bagikan Pengalaman Anda</h3>
+        <form class="testi-form" id="testiForm">
+          <div class="form-row">
+            <div class="form-group">
+              <label>Nama Anda</label>
+              <input type="text" placeholder="Contoh: Budi Santoso" required />
+            </div>
+            <div class="form-group">
+              <label>Rating</label>
+              <div class="star-rating" id="starRating">
+                <span data-v="1">★</span><span data-v="2">★</span><span data-v="3">★</span>
+                <span data-v="4">★</span><span data-v="5">★</span>
+              </div>
+            </div>
+          </div>
+          <div class="form-group">
+            <label>Ceritakan pengalaman Anda</label>
+            <textarea placeholder="Apa yang Anda sukai dari Mie Ayam Mas Fajar?" rows="3" required></textarea>
+          </div>
+          <button type="submit" class="btn-primary">Kirim Testimoni</button>
+        </form>
+        <div class="form-success" id="testiSuccess" style="display:none">
+          ✅ Terima kasih! Testimoni Anda telah kami terima.
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- LOKASI -->
+  <section id="lokasi" class="lokasi">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-tag">Lokasi & Kontak</div>
+        <h2 class="section-title">Temukan<br/><em>Kami di Sini</em></h2>
+      </div>
+      <div class="lokasi-grid">
+        <div class="lokasi-info">
+          <div class="info-card">
+            <div class="ic-icon">📍</div>
+            <div>
+              <h4>Alamat</h4>
+              <p>Jalan Manduro, Surakarta<br/>Jawa Tengah, Indonesia</p>
+            </div>
+          </div>
+          <div class="info-card">
+            <div class="ic-icon">🕐</div>
+            <div>
+              <h4>Jam Operasional</h4>
+              <p>Senin – Sabtu: 07.00 – 16.00 WIB<br/>Minggu: 07.00 – 13.00 WIB</p>
+            </div>
+          </div>
+          <div class="info-card">
+            <div class="ic-icon">📱</div>
+            <div>
+              <h4>Hubungi Kami</h4>
+              <p>WhatsApp: <a href="https://wa.me/6281234567890" target="_blank">0812-3456-7890</a></p>
+            </div>
+          </div>
+          <div class="info-card">
+            <div class="ic-icon">📲</div>
+            <div>
+              <h4>Media Sosial</h4>
+              <div class="sosmed-links">
+                <a href="#" class="sosmed-btn ig">Instagram</a>
+                <a href="#" class="sosmed-btn fb">Facebook</a>
+                <a href="https://wa.me/6281234567890" target="_blank" class="sosmed-btn wa">WhatsApp</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="map-wrap">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3954.8!2d110.827!3d-7.5662!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zN8KwMzMnNTguMyJTIDExMMKwNDknMzcuMiJF!5e0!3m2!1sid!2sid!4v1234567890"
+            width="100%" height="350" style="border:0;border-radius:16px;" allowfullscreen=""
+            loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Lokasi Mie Ayam Mas Fajar">
+          </iframe>
+          <a href="https://maps.google.com/?q=Jalan+Manduro+Surakarta" target="_blank" class="map-btn">
+            Buka di Google Maps 🗺️
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PESAN / ORDER -->
+  <section id="pesan" class="pesan">
+    <div class="pesan-bg"></div>
+    <div class="container">
+      <div class="pesan-grid">
+        <div class="pesan-text">
+          <div class="section-tag light-tag">Pemesanan</div>
+          <h2 class="section-title light-title">Pesan Sekarang,<br/><em>Siap Disajikan!</em></h2>
+          <p style="color:rgba(255,255,255,0.8);margin-bottom:1.5rem;">Isi formulir pemesanan sederhana ini, kami akan segera menghubungi Anda untuk konfirmasi.</p>
+          <div class="pesan-note">
+            <span>⏱️</span> Estimasi siap: <strong>15–20 menit</strong>
+          </div>
+          <div class="pesan-note">
+            <span>📦</span> Tersedia untuk <strong>dine-in & take-away</strong>
+          </div>
+          <div class="pesan-note">
+            <span>💬</span> Bisa pesan via <strong>WhatsApp</strong> juga
+          </div>
+        </div>
+        <div class="pesan-form-wrap">
+          <form class="pesan-form" id="pesanForm">
+            <div class="form-group">
+              <label>Nama Pemesan</label>
+              <input type="text" placeholder="Nama lengkap Anda" required />
+            </div>
+            <div class="form-group">
+              <label>Nomor WhatsApp</label>
+              <input type="tel" placeholder="Contoh: 0812-3456-7890" required />
+            </div>
+            <div class="form-group">
+              <label>Pilih Menu</label>
+              <select required>
+                <option value="">-- Pilih Menu --</option>
+                <option>Mie Ayam Original – Rp 12.000</option>
+                <option>Mie Ayam Special – Rp 15.000</option>
+                <option>Mie Ayam Bakso – Rp 15.000</option>
+                <option>Mie Ayam Komplit – Rp 18.000</option>
+                <option>Mie Goreng Ayam – Rp 14.000</option>
+                <option>Pangsit Goreng – Rp 8.000</option>
+              </select>
+            </div>
+            <div class="form-row">
+              <div class="form-group">
+                <label>Jumlah Porsi</label>
+                <input type="number" min="1" max="50" value="1" required />
+              </div>
+              <div class="form-group">
+                <label>Jenis Pesanan</label>
+                <select required>
+                  <option>Dine-in</option>
+                  <option>Take-away</option>
+                </select>
+              </div>
+            </div>
+            <div class="form-group">
+              <label>Catatan Tambahan</label>
+              <textarea placeholder="Contoh: tidak pedas, tambah kuah, dll." rows="2"></textarea>
+            </div>
+            <button type="submit" class="btn-primary full-btn">🍜 Kirim Pesanan</button>
+          </form>
+          <div class="form-success" id="pesanSuccess" style="display:none">
+            ✅ Pesanan diterima! Kami akan segera menghubungi Anda.
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <div class="nav-logo" style="margin-bottom:1rem">
+            <span class="logo-icon">🍜</span>
+            <div>
+              <span class="logo-main">Mas Fajar</span>
+              <span class="logo-sub">Mie Ayam Kartotiyasan</span>
+            </div>
+          </div>
+          <p>Cita rasa autentik Surakarta yang menghangatkan hati sejak 2009.</p>
+        </div>
+        <div class="footer-links">
+          <h4>Navigasi</h4>
+          <ul>
+            <li><a href="#beranda">Beranda</a></li>
+            <li><a href="#tentang">Tentang Kami</a></li>
+            <li><a href="#menu">Menu</a></li>
+            <li><a href="#galeri">Galeri</a></li>
+            <li><a href="#testimoni">Testimoni</a></li>
+            <li><a href="#lokasi">Lokasi</a></li>
+          </ul>
+        </div>
+        <div class="footer-contact">
+          <h4>Kontak</h4>
+          <p>📍 Jalan Manduro, Surakarta</p>
+          <p>📱 0812-3456-7890</p>
+          <p>🕐 Senin–Sabtu: 07.00–16.00</p>
+          <p>🕐 Minggu: 07.00–13.00</p>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2026 Mie Ayam Kartotiyasan Mas Fajar. Dibuat dengan ❤️ oleh Kelompok 1 – Universitas Terbuka Surakarta.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- WHATSAPP FLOAT -->
+  <a href="https://wa.me/6281234567890" target="_blank" class="wa-float" title="Chat WhatsApp">
+    <svg viewBox="0 0 24 24" fill="currentColor" width="28" height="28"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+  </a>
+
+  <script src="script.js"></script>
+</body>
+</html>
